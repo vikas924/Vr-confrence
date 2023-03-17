@@ -67,7 +67,7 @@ html {
 
   .mobile-menu {
     height: 0;
-    background-color: #3c3a39;
+    background-color: var(--orange);
     position: fixed;
     width: 100%;
     transition: height 0.3s ease-in-out;
@@ -87,12 +87,13 @@ html {
     width: 40px;
     height: 40px;
     margin-right: 6.4%;
-    background-color: #3c3a39;
+    background-color: #fff5e1;
     border-style: none;
   }
 
   .menu-button:hover {
-    background-color: #fff5e1;
+    background-color: #fff;
+    border: 0.1rem solid var(--black);
   }
 
   .mobnav {
@@ -110,6 +111,10 @@ html {
     width: 33.33%;
     display: flex;
     align-items: center;
+  }
+
+  .mobnav1:hover {
+    background-color: var(--black);
   }
 
   .moblink {
