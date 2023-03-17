@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Microverse first capstone] <a name="about-project"></a>
+# 📖 [First capstone global confrence] <a name="about-project"></a>
 
-**[Microverse first capstone]** In this project i created website of vr global confrence which includes homepage and about page and its responsive for both mobile and desktop.
+**[First capstone global confrence]** In this project i created website of vr global confrence which includes homepage and about page and its responsive for both mobile and desktop.
 
 ## 🛠 Built With <a name="built-with"></a>
 
