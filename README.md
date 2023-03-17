@@ -4,7 +4,7 @@
   <img src="readme-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>My portfolio</b></h3>
+  <h3><b>Global confrence</b></h3>
 
 </div>
 
