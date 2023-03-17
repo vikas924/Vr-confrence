@@ -30,9 +30,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio Popup Window] <a name="about-project"></a>
+# 📖 [Microverse first capstone] <a name="about-project"></a>
 
-**[Portfolio Popup Window]** is about setting linters and add javascript for Popup window.
+**[Microverse first capstone]** In this project i created website of vr global confrence which includes homepage and about page and its responsive for both mobile and desktop.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,9 +62,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Show/hide menu]**
-- **[Follow HTML,CSS and JS best practice]**
-- **[Click on options close menu]**
+- **[Hamburger menu]**
+- **[Responsive]**
+- **[Dynamic speaker section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ GitHub Pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add animations]**
-- [ ] **[Add transitions]**
+- [ ] **[Add more pages]**
 - [ ] **[Add Validation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -184,6 +184,8 @@ If you like this project please follow me on github , twitter and also connect o
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for this exercise.
+
+I would like to thank Cindy shin for this design {https://www.behance.net/gallery/29845175/CC-Global-Summit-2015}.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
