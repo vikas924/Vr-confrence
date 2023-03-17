@@ -15,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Video](#demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -73,6 +74,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://vikas924.github.io/first-capstone/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 video link <a name="demo"></a>
+
+- [ Video Link](https://www.loom.com/share/53d502a259264bebb2675e5a66423ef2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
