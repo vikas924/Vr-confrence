@@ -21,28 +21,28 @@ const closeMenu = document.querySelector('.menu-button');
 closeMenu.addEventListener('click', showhide);
 
 // Get a reference to the menu and an array of elements
-const menu = document.querySelector(".menu");
-const elements = document.querySelectorAll(".pick");
+const menu = document.querySelector('.menu');
+const elements = document.querySelectorAll('.pick');
 
 // Add a scroll event listener to the window object
-window.addEventListener("scroll", function() {
+window.addEventListener('scroll', () => {
   let value = false;
   // Loop through each element and check if the menu is covering it
-  elements.forEach(function(element) {
+  elements.forEach((element) => {
     // Get the bounding rectangles of the menu and the element
     const menuRect = menu.getBoundingClientRect();
     const elementRect = element.getBoundingClientRect();
 
     // Check if the menu is covering the element
-    const isCovering = (menuRect.top < elementRect.bottom && menuRect.bottom > elementRect.top && menuRect.left < elementRect.right && menuRect.right > elementRect.left);
+    const isCovering = (menuRect.top < elementRect.bottom && menuRect.bottom > elementRect.top
+   && menuRect.left < elementRect.right && menuRect.right > elementRect.left);
     if (isCovering) {
-      value=true
-      console.log('covering')
+      value = true;
     }
   });
-  if (value == true) {
-    menu.classList.add("active");
+  if (value === true) {
+    menu.classList.add('active');
   } else {
-    menu.classList.remove("active");
+    menu.classList.remove('active');
   }
 });
