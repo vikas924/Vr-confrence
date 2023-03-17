@@ -30,6 +30,17 @@ html {
   padding-bottom: 0.75rem;
 }
 
+.scroll {
+  background-color: transparent;
+  transition: background-color 0.5s ease;  
+}
+
+.active {
+  background-color: fuchsia;
+  border: 0.1rem dashed ghostwhite;
+  border-radius: 0.5rem;
+}
+
 #logo {
   display: block;
   width: 100%;
@@ -37,9 +48,10 @@ html {
 }
 
 .menu {
+  position: fixed;
   display: flex;
   align-items: center;
-  padding-left: 7%;
+  margin-left: 7%;
   font-size: 155%;
   color: black;
 }
@@ -148,15 +160,22 @@ html {
   -webkit-background-clip: text;
 }
 
+.aboutline {
+  width: 2rem;
+  height: 0.1rem;
+  background-color: var(--orange);
+  border: none; 
+}
+
 .paraborder {
   border: 0.1rem solid var(--gray);
 }
 
 .para1 {
   padding: 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1rem;
+  line-height: 1.2rem;
   color: var(--black);
   background-color: #fff;
 }
@@ -212,8 +231,10 @@ html {
 }
 
 .line {
-  color: var(--orange);
-  width: 6%;
+  width: 1.6rem;
+  height: 0.1rem;
+  background-color: var(--orange);
+  border: none;
 }
 
 .proimg {
@@ -289,8 +310,9 @@ html {
 
 .lineS {
   margin-top: 1.5rem;
-  color: var(--gray);
   height: 0.1rem;
+  background-color: var(--gray);
+  border: none;
 }
 
 .sponsers {
@@ -298,7 +320,7 @@ html {
   padding: 2rem;
   flex-direction: column;
   width: 100%;
-  background-color: var(--black);
+  background-color: #494949;
   align-items: center;
 }
 
@@ -321,8 +343,11 @@ html {
 
 .line4 {
   justify-content: center;
-  width: 5%;
-  color: var(--orange);
+  width: 2rem;
+  height: 0.1rem;
+  background-color: var(--orange);
+  border: none;
+  
 }
 
 .sponicons {
@@ -379,7 +404,6 @@ html {
 
 @media only screen and (min-width: 768px) {
   .header {
-    min-height: 100vh;
     background-image: url(./bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -415,6 +439,10 @@ html {
     padding-right: 13%;
   }
 
+  .para {
+    display: none;
+  }
+
   .desklist {
     color: #fff;
     padding: 0.25rem 0 0.25rem 0;
@@ -425,7 +453,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     background-color: #fff;
-    padding: 1rem 13% 1rem 13%;
+    padding: 1rem 12.5% 1rem 13%;
   }
 
   .logolink {
@@ -444,12 +472,14 @@ html {
     font-weight: 700;
   }
 
+  .deskuldiv {
+    display: flex;
+  }
+
   .deskul2 {
     display: flex;
     align-items: center;
-    gap: 1.8rem;
-    padding-left: 10%;
-    padding-right: 5%;
+    gap: 2rem;
   }
 
   .logolink1 {
@@ -512,6 +542,7 @@ html {
   .desbutton {
     display: flex;
     align-items: center;
+    padding-left: 3rem;
   }
 
   .deskbutton {
@@ -524,7 +555,7 @@ html {
   }
 
   .page {
-    padding: 30vh 13% 20vh 13%;
+    padding: 13rem 13% 3rem 13%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -546,6 +577,12 @@ html {
     -webkit-background-clip: text;
   }
 
+  .propara {
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    width: 739px;
+  }
+
   .paraborder {
     border: 0.2rem solid #fff;
     width: 80%;
@@ -554,9 +591,9 @@ html {
   .para1 {
     padding-inline: 2rem;
     padding-block: 1rem;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1.2rem;
     color: rgba(21, 20, 20, 0.772);
   }
 
@@ -582,6 +619,7 @@ html {
   .footer {
     background-color: var(--black);
     color: #fff;
+    padding: 3.5rem 15rem 3.5rem 3.5rem;
   }
 
   .footerlink1 {

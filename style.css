@@ -25,6 +25,18 @@ html {
     padding-bottom: 2rem;
   }
 
+  .scroll {
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+  }
+  
+  .active {
+    background-color: fuchsia;
+    border: 0.1rem dashed ghostwhite;
+    border-radius: 0.5rem;
+  }
+  
+
   .head {
     width: 100%;
     padding-top: 1rem;
@@ -40,7 +52,7 @@ html {
   .menu {
     display: flex;
     align-items: center;
-    padding-left: 7%;
+    margin-left: 7%;
     font-size: 155%;
     color: black;
     position: fixed;
@@ -136,7 +148,7 @@ html {
   }
 
   .para {
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
     color: var(--orange);
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
@@ -192,6 +204,9 @@ html {
   .line {
     color: var(--orange);
     width: 10%;
+    height: 0.1rem;
+    background-color: var(--orange);
+    border: none;
   }
 
   .heading3 {
@@ -232,6 +247,7 @@ html {
     width: 60%;
     font-weight: 400;
     color: #fff;
+    line-height: 1rem;
   }
 
   .program-l {
@@ -301,7 +317,9 @@ html {
 
   .line2 {
     width: 8%;
-    color: var(--orange);
+    height: 0.1rem;
+    background-color: var(--orange);
+    border: none;
   }
 
   #grid {
@@ -333,7 +351,9 @@ html {
 
   .line3 {
     width: 2rem;
-    color: var(--gray);
+    background-color: var(--gray);
+    height: 0.1rem;
+    border: none;
   }
 
   .speakerimage {
@@ -344,13 +364,14 @@ html {
   }
 
   .speakerhead {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
   }
 
   .speakerhead1 {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--orange);
+    font-style: italic;
   }
 
   .speakerpara {
@@ -403,7 +424,6 @@ html {
 
 @media only screen and (min-width: 768px) {
   .header {
-    min-height: 100vh;
     background-image: url(./bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -444,7 +464,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     background-color: #fff;
-    padding: 1rem 13% 1rem 13%;
+    padding: 1rem 12.5% 1rem 13%;
   }
 
   .logolink {
@@ -463,12 +483,14 @@ html {
     font-weight: 700;
   }
 
+  .deskuldiv {
+    display: flex;
+  }
+
   .deskul2 {
     display: flex;
     align-items: center;
-    gap: 1.8rem;
-    padding-left: 10%;
-    padding-right: 5%;
+    gap: 2rem;
   }
 
   .logolink1 {
@@ -483,6 +505,7 @@ html {
   .desbutton {
     display: flex;
     align-items: center;
+    padding-left: 3rem;
   }
 
   .deskbutton {
@@ -495,7 +518,7 @@ html {
   }
 
   .page {
-    padding: 30vh 13% 0 13%;
+    padding: 12rem 13% 9rem 13%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -503,7 +526,7 @@ html {
 
   .para {
     color: var(--orange);
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 
@@ -531,7 +554,7 @@ html {
 
   .heading1 {
     font-style: normal;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     font-weight: 800;
     background-image: url(./images/bacgroudtext.jpeg);
     color: transparent;
@@ -541,14 +564,14 @@ html {
 
   .paraborder {
     border: 0.2rem solid #fff;
-    width: 65%;
+    max-width: 24rem;
   }
 
   .para1 {
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 0.7rem;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1.2rem;
     color: rgba(21, 20, 20, 0.772);
   }
 
@@ -574,8 +597,10 @@ html {
   }
 
   .line {
-    color: var(--orange);
-    width: 3rem;
+    height: 0.1rem;
+     background-color: var(--orange);
+     border: none;
+    width: 5%;
   }
 
   .heading3 {
@@ -618,6 +643,7 @@ html {
     font-weight: 400;
     color: #fff;
     padding-bottom: 1rem;
+    line-height: 1rem;
   }
 
   .program-l {
@@ -679,7 +705,9 @@ html {
 
   .line2 {
     width: 4%;
-    color: var(--orange);
+    height: 0.1rem;
+    background-color: var(--orange);
+    border: none;
   }
 
   #grid {
@@ -711,7 +739,9 @@ html {
 
   .line3 {
     width: 2rem;
-    color: var(--gray);
+    background-color: var(--gray);
+    height: 0.1rem;
+    border: none;
   }
 
   .speakerimage {
@@ -722,13 +752,14 @@ html {
   }
 
   .speakerhead {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: 700;
   }
 
   .speakerhead1 {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--orange);
+    font-style: italic;
   }
 
   .speakerpara {
@@ -741,7 +772,7 @@ html {
     padding: 2rem;
     flex-direction: column;
     width: 100%;
-    background-color: var(--black);
+    background-color: #494949;
     align-items: center;
   }
 
@@ -754,8 +785,10 @@ html {
 
   .line4 {
     justify-content: center;
-    width: 5%;
-    color: var(--orange);
+    width: 2rem;
+    height: 0.1rem;
+    background-color: var(--orange);
+    border: none;
   }
 
   .sponicons {
@@ -773,7 +806,7 @@ html {
   }
 
   .footer {
-    padding: 3.5rem;
+    padding: 3.5rem 15rem 3.5rem 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;

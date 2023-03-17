@@ -88,7 +88,7 @@ document.querySelector('#speakers').appendChild(div1);
 
 for (let i = 0; i < array.length; i += 1) {
   if (i <= 1) {
-    const cards = works(`<div class ="speakerdiv">${array[i].image}${array[i].image2}
+    const cards = works(`<div class ="speakerdiv pick">${array[i].image}${array[i].image2}
 <div class= "speakerdiv1"><h1 class="speakerhead">${array[i].name}</h1>
  <h2 class="speakerhead1">${array[i].designation}</h2><hr class="line3">
  <p class="speakerpara">${array[i].description1}</p>
@@ -96,7 +96,7 @@ for (let i = 0; i < array.length; i += 1) {
 </div>`);
     document.querySelector('#grid').appendChild(cards);
   } else if (i > 1) {
-    const cards = works(`<div class ="speakerdiv hide toggle">${array[i].image}${array[i].image2}
+    const cards = works(`<div class ="speakerdiv pick hide toggle">${array[i].image}${array[i].image2}
  <div class= "speakerdiv1"><h1 class="speakerhead">${array[i].name}</h1>
  <h2 class="speakerhead1">${array[i].designation}</h2><hr class="line3">
  <p class="speakerpara">${array[i].description1}</p>
@@ -134,3 +134,31 @@ function more() {
 
 document.querySelector('#spbutton1').addEventListener('click', more);
 document.querySelector('#spbutton').addEventListener('click', more);
+
+
+// Get a reference to the menu and an array of elements
+const menu = document.querySelector(".menu");
+const elements = document.querySelectorAll(".pick");
+
+// Add a scroll event listener to the window object
+window.addEventListener("scroll", function() {
+  let value = false;
+  // Loop through each element and check if the menu is covering it
+  elements.forEach(function(element) {
+    // Get the bounding rectangles of the menu and the element
+    const menuRect = menu.getBoundingClientRect();
+    const elementRect = element.getBoundingClientRect();
+
+    // Check if the menu is covering the element
+    const isCovering = (menuRect.top < elementRect.bottom && menuRect.bottom > elementRect.top && menuRect.left < elementRect.right && menuRect.right > elementRect.left);
+    if (isCovering) {
+      value=true
+      console.log('covering')
+    }
+  });
+  if (value == true) {
+    menu.classList.add("active");
+  } else {
+    menu.classList.remove("active");
+  }
+});
