@@ -72,7 +72,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vikas924.github.io/Portfolio-setup-and-mobilefirst/)
+- [Live Demo Link](https://vikas924.github.io/first-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,7 @@ Use git clone command or download ZIP folder
 
 ```sh
   cd my-folder
-  git@github.com:vikas924/Portfolio-setup-and-mobilefirst.git
+  git@github.com:vikas924/first-capstone.git
 ```
 
 ### Install
@@ -138,7 +138,7 @@ You can deploy this project using:
 GitHub Pages
 
 ```sh
- https://vikas924.github.io/Portfolio-setup-and-mobilefirst/
+ https://vikas924.github.io/first-capstone/
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
