@@ -79,7 +79,7 @@
 
 ## 🚀 video link <a name="demo"></a>
 
-- [ Video Link](https://www.loom.com/share/53d502a259264bebb2675e5a66423ef2)
+- [ Video Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
