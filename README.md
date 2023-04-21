@@ -31,9 +31,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [First capstone global confrence] <a name="about-project"></a>
+# 📖 [Vr global confrence] <a name="about-project"></a>
 
-**[First capstone global confrence]** In this project i created website of vr global confrence which includes homepage and about page and its responsive for both mobile and desktop.
+**[Vr global confrence]** is a project of making a portfolio website to showcase my skills to employers that i can make a responsive website using html, css, Javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
