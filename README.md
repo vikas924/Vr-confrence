@@ -73,7 +73,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://vikas924.github.io/first-capstone/)
+- [Live Demo Link](https://vikas924.github.io/Vr-confrence/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
